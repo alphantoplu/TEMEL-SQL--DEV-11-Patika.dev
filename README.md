@@ -9,5 +9,5 @@
 - 3-(SELECT first_name FROM actor) EXCEPT (SELECT first_name FROM customer);
 - 4a-(SELECT first_name FROM actor) UNION ALL (SELECT first_name FROM customer);
 - 4b-(SELECT first_name FROM actor) INTERSECT (SELECT first_name FROM customer);
-- 4c-(SELECT first_name FROM actor) EXCEPT (SELECT first_name FROM customer);
+- 4c-(SELECT first_name FROM actor) EXCEPT ALL (SELECT first_name FROM customer);
 - 
